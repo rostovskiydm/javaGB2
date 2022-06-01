@@ -7,12 +7,8 @@ public class MyArray {
     private static final int COLUMNS = 4;
     private String[][] array;
 
-    public MyArray() {
-        this.array = new String[][]{
-                {"1", "2", "3", "4"},
-                {"1", "7", "1", "4"},
-                {"6", "Строка", "2", "4"},
-                {"5", "2", "3", "4"}};
+    public MyArray(String[][] array) {
+        this.array = array;
     }
 
     public void checkSize() {
